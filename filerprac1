@@ -1,3 +1,4 @@
 WebDriver driver = new ChromeDriver();
 driver.get("https://www.irctc.co.in/nget/train-search");
 driver.quite();
+driver.manage().window().maximize();
